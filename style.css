@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Merienda", cursive;
+}
+
+
+header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    background-color: rgba(122, 112, 7, 0.852);
+}
+
+header img{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+header ul{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#loc{
+    margin: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+header ul li{
+    margin: 10px;
+    list-style: none;
+    font-size: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 40px;
+}
+
+header ul li a i{
+    margin-right: 7px;
+}
+
+header ul li a:hover{
+    color: white;
+    background-image: linear-gradient(to bottom right,yellow,orange,red);
+    /* gradient can only be applied with background image */
+}
+
+header ul li:hover{
+    color: white;
+    animation: rotate 7s;
+
+}
+
+@keyframes rotate{
+    0%{
+       transform: rotate(10deg);
+    }
+    20%{
+        transform: rotate(-10deg);
+    }
+    40%{
+        transform: rotate(10deg);
+     }
+     60%{
+         transform: rotate(-10deg);
+     }
+     80%{
+        transform: rotate(10deg);
+     }
+     100%{
+         transform: rotate(-10deg);
+     }
+    }
+
+.item h1{
+     margin-left: 30px;
+}
+
+.food-menu {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 50px;
+  }
+  .food-item {
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  .food-item img {
+    width: 110px;
+    height: 100px;
+    object-fit: cover;
+  }
+
+  .menu h1{
+    margin-left: 30px;
+  }
+
+  .menu .container{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .restaurant h1{
+    margin-left: 30px;
+  }
+
+  .restaurant button:hover{
+    background-color: rgb(255, 132, 0);
+    font-style:italic;
+    color: white;
+    transition: transform 3s;
+    transform:translateX(30px);
+  }
+
+  .reserve h1{
+    margin-left: 30px;
+  }
+
+  #book{
+    /* padding-top: 4px; */
+    height: 40px;
+    border: 3px solid rgb(26, 17, 212);
+  }
+
+  #bookbut{
+    height: 40px;
+  }
+
+  #bookbut:hover{
+    background-color: rgb(255, 189, 47);
+    color: black;
+    transition: 3s;
+    transform: rotate(20deg);
+  }
+
+  .reserve button:hover{
+    background-color: rgb(255, 132, 0);
+    font-style:italic;
+    color: white;
+    transition: transform 3s;
+    transform:translateX(-30px);
+  }
+
+ .review .card {
+    border: none;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.416);
+}
+.review .card-title {
+    font-size: 20px;
+}
+.review .card-text {
+    font-size: 15px;
+}
+
+.review button:hover{
+  background-color: rgb(255, 132, 0);
+  font-style:italic;
+  color: white;
+  transition: transform 3s;
+  transform:translateY(20px);
+}
+
+footer {
+  background-color: rgba(125, 121, 73, 0.852);
+}
+
+footer .btn-floating {
+  margin: 8px;
+  display: inline-block;
+}
+
+footer .fab:hover{
+  color: white;
+}
+
+
+
